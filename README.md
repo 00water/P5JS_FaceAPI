@@ -13,12 +13,12 @@ p5.js 웹에디터로는 사진을 학습하여 얼굴인식을 하는데 어려
 
 코드
 ---
-- 'index.html'
+- index.html
 ~~~js
 <script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js" type="text/javascript"></script> 추가
 ~~~
 
-- 'sketch.js'
+- sketch.js
 ~~~js
 let faceapi;
 let video;
