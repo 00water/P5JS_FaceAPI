@@ -1,20 +1,25 @@
-# 개요
+Javascript를 사용한 얼굴인식 시스템
+=============================
+개요
+---
 https://www.youtube.com/watch?v=AZ4PdALMqx0
 
-영상을 참고하여 java script 기반으로 얼굴을 인식하는 시스템을 구현해보고 소감을 적으시오.
+영상을 참고하여 Javascript 기반으로 얼굴을 인식하는 시스템을 구현해보고 소감을 적으시오.
 
-# 설명
+설명
+---
 p5.js 웹에디터로는 사진을 학습하여 얼굴인식을 하는데 어려움이 있어 웹캠을 통한 실시간 얼굴인식 프로그램을 작성해 보았습니다.
 
 웹캠을 통해 사람의 얼굴을 인식하면 얼굴 위에 레터박스가 만들어지게 됩니다.
 
-# 코드
-'index.html'
+코드
+---
+- 'index.html'
 ~~~js
 <script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js" type="text/javascript"></script> 추가
 ~~~
 
-'sketch.js'
+- 'sketch.js'
 ~~~js
 let faceapi;
 let video;
@@ -98,8 +103,8 @@ function drawBox(detections) {
 }
 ~~~
 
-# 실행결과
-
+실행결과
+------
 
 https://user-images.githubusercontent.com/105781767/202179430-3ff5ae8a-a49c-4911-81e4-ee14ef54e2dd.mp4
 
